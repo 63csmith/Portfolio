@@ -22,3 +22,8 @@ SO THAT I can assess whether they're a good candidate for an open position
 ## Questions
 
 63csmith@gmail.com
+https://github.com/63csmith
+
+## Inspo
+
+https://github.com/judygab
