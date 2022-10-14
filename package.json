@@ -20,8 +20,7 @@
     "react-on-screen": "^2.1.1",
     "react-responsive-carousel": "^3.2.23",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-      "homepage": "https://mywebsite.com"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
