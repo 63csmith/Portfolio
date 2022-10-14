@@ -234,7 +234,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/justin-kauffman-lbybdXUYWRs-unsplash.jpg');
+  background-image: url('./assets/img/blacksand.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -243,7 +243,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(247, 105, 3, 0.5) , rgba(255, 0, 0, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, #000000 -5.91%, #625e5e 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -373,7 +373,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #e68413 -5.91%, #bd0b0b 111.58%);
+    background: linear-gradient(90.21deg, #ffffff -5.91%, #000000 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -405,7 +405,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #ef0707 -5.91%, #e97d1f 111.58%);
+  background: linear-gradient(90.21deg, #ffffff -5.91%, #000000 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -452,7 +452,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #eda31a -5.91%, #a20404 111.58%);
+  background: linear-gradient(90.21deg, #808080 -5.91%, #000000 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -525,7 +525,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/justin-kauffman-lbybdXUYWRs-unsplash.jpg');
+  background-image: url('./assets/img/blacksand.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
