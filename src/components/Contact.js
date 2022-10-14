@@ -53,17 +53,6 @@ export const Contact = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <img
-                  className={isVisible ? "" : ""}
-                  src={phone}
-                  alt="Phone Ringing"
-                />
-              )}
-            </TrackVisibility>
-          </Col>
-          <Col size={12} md={6}>
-            <TrackVisibility>
-              {({ isVisible }) => (
                 <div className={isVisible ? "" : ""}>
                   <h2>Get In Touch</h2>
                   <form onSubmit={handleSubmit}>
