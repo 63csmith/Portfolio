@@ -73,7 +73,7 @@ export const Skills = () => {
                   <h5>MERN Stack</h5>
                 </div>
                 <div className="item">
-                  <img src={rocket} alt="Image" />
+                  <img src={woodcutter} alt="Image" />
                   <h5>Communication</h5>
                 </div>
                 <div className="item">
