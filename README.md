@@ -2,7 +2,7 @@
 
 # Live Link
 
-https://thawing-anchorage-42520.herokuapp.com/
+https://main.d21pvht1rc8zzr.amplifyapp.com/
 
 ## This app was built with React JS
 
@@ -14,10 +14,6 @@ I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
 
 ```
-
-# Preview
-
-![Alt text](/src/assets/img/demo.gif)
 
 ## Questions
 
