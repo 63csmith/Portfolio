@@ -41,9 +41,12 @@ export const Skills = () => {
                 dummy text.
               </p>
               <Carousel
-                responsive={responsive}
                 infinite={true}
+                autoPlay={true}
+                autoPlaySpeed={1000}
+                responsive={responsive}
                 className="owl-carousel owl-theme skill-slider"
+                arrows={false}
               >
                 <div className="item">
                   <img src={food} alt="Image" />

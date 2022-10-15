@@ -355,7 +355,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills {
   width: 80%;
   margin: 0 auto;
-  border-radius: 50px;
+  border-radius: 20px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
@@ -407,7 +407,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 } */
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  border-radius: 20px;
   overflow: hidden;
   margin-bottom: 24px;
 }
@@ -458,21 +458,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background: #000000;
   padding: 60px 0 200px 0;
 }
 
 .contact h2 {
-	font-size: 45px;
+	font-size: 50px;
 	font-weight: 700;
   margin-bottom: 30px;
 }
 .contact form input, .contact form textarea {
   width: 100%;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.211);
+  border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   color: #fff;
   margin: 0 0 8px 0;
@@ -505,13 +505,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 0;
   position: relative;
   transition: 0.3s ease-in-out;
+  border-radius: 20px;
 }
 .contact form button span {
   z-index: 1;
   position: relative;
+  border-radius: 20px;
 }
 .contact form button:hover {
   color: #fff;
+  border-radius: 20px;
 }
 .contact form button::before {
   content: "";
@@ -523,6 +526,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   left: 0;
   z-index: 0;
   transition: 0.3s ease-in-out;
+  border-radius: 20px;
 }
 .contact form button:hover::before {
   width: 100%;
