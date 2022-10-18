@@ -2,7 +2,7 @@
 
 # Live Link
 
-https://main.d21pvht1rc8zzr.amplifyapp.com/
+https://codestuart.com/
 
 ## This app was built with React JS
 
