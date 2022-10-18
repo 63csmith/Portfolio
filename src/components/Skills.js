@@ -39,7 +39,7 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Here are some of my top highlighted skills fot you to check out!
+                Here are some of my top highlighted skills for you to check out!
                 <br></br>
               </p>
 

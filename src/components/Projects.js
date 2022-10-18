@@ -4,6 +4,8 @@ import website from "../assets/img/placeholder.gif";
 import bookify from "../assets/img/preview.gif";
 import rose from "../assets/img/Rose.jpg";
 import tree from "../assets/img/treequiz.png";
+import shopwizzard from "../assets/img/shopwizzard.png";
+
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -21,6 +23,12 @@ export const Projects = () => {
       description: "Shopify Store to sell handmade jewelry.",
       imgUrl: rose,
       link: "https://lenorarosejewelry.myshopify.com/",
+    },
+    {
+      title: "ShopWizzard",
+      description: "90's themed game loot store.",
+      imgUrl: shopwizzard,
+      link: "http://shop-wizard.herokuapp.com/",
     },
   ];
   // Apps
@@ -76,8 +84,8 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane className="youtube" eventKey="third">
                         <p>
-                          Standby for some coding and tutorial videos on my
-                          YouTube channel!
+                          Standby for some coding tutorial videos on my YouTube
+                          channel!
                           <br></br>
                           <a
                             target="_blank"

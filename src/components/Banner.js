@@ -63,14 +63,15 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h1>Hi,</h1>
-                  <h1>I'm Chris a Junior Software Developer.</h1>
+                  <h1>
+                    I'm Chris,<br></br> a Junior Software Developer.
+                  </h1>
                   <p>
-                    This is my personal portfolio to showcase some of my
-                    projects and a chance to introduce myself to you. I live in
-                    Denver Colorado with my partner, two cats, and the best
-                    adventure pup around. I love the outdoors where I spend most
-                    of my free time if I am not working at my computer.
+                    This is my portfolio to showcase some of my projects and a
+                    chance to introduce myself to you. I live in Denver,
+                    Colorado, with my partner, two cats, and the best adventure
+                    pup around. I love the outdoors, where I spend most of my
+                    free time if I am not working at my computer.
                   </p>
                 </div>
               )}
