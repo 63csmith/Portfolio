@@ -49,9 +49,9 @@ p, a, li, button, ul {
   text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
   text-decoration: none;
-}
+} */
 
 img {
   width: 100%;
@@ -422,6 +422,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx a:hover {
   color:#ffffff;
+}
+
+.youtube a{
+color:rgb(241, 0, 0);
+}
+.youtube a:hover {
+  color: white;
 }
 
 .proj-imgbx:hover::before {

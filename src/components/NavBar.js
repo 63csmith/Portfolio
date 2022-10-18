@@ -62,6 +62,16 @@ export const NavBar = () => {
               Projects
             </Nav.Link>
             <Nav.Link
+              target="_blank"
+              href="https://www.linkedin.com/in/christopher-stuart-b8231a236/"
+              className={
+                activeLink === "LinkedIn" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("connect")}
+            >
+              LinkedIn
+            </Nav.Link>
+            <Nav.Link
               href="#connect"
               className={
                 activeLink === "connect" ? "active navbar-link" : "navbar-link"

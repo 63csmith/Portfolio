@@ -63,14 +63,14 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h1>I'm Chris a Web Developer.</h1>
+                  <h1>Hi,</h1>
+                  <h1>I'm Chris a Junior Software Developer.</h1>
                   <p>
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts. Separated they live in Bookmarksgrove right at the
-                    coast of the Semantics, a large language ocean. A small
-                    river named Duden flows by their place and supplies it with
-                    the necessary regelialia.
+                    This is my personal portfolio to showcase some of my
+                    projects and a chance to introduce myself to you. I live in
+                    Denver Colorado with my partner, two cats, and the best
+                    adventure pup around. I love the outdoors where i spend most
+                    of my free time if I am not working at my computer.
                   </p>
                 </div>
               )}

@@ -7,6 +7,9 @@ import dj from "../assets/img/dj.gif";
 import food from "../assets/img/19-parenting-healthyeating-superJumbo.gif";
 import ux from "../assets/img/march7agif.gif";
 import click from "../assets/img/200.gif";
+import website from "../assets/img/placeholder.gif";
+import frontend from "../assets/img/frontend.gif";
+import cat from "../assets/img/cat.gif";
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -36,10 +39,10 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
+                Here are some of my top highlighted skills fot you to check out!
+                <br></br>
               </p>
+
               <Carousel
                 infinite={true}
                 autoPlay={true}
@@ -54,15 +57,15 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={punch} alt="Image" />
-                  <h5>Backend Development</h5>
+                  <h5>Database Development</h5>
                 </div>
                 <div className="item">
                   <img src={dj} alt="Image" />
                   <h5>Logo Design</h5>
                 </div>
                 <div className="item">
-                  <img src={rocket} alt="Image" />
-                  <h5>FrontEnd Development</h5>
+                  <img src={frontend} alt="Image" />
+                  <h5>FrontEnd Design</h5>
                 </div>
                 <div className="item">
                   <img src={click} alt="Image" />
@@ -81,8 +84,12 @@ export const Skills = () => {
                   <h5>UX/UI Design</h5>
                 </div>
                 <div className="item">
-                  <img src={rocket} alt="Image" />
-                  <h5>FrontEnd Development</h5>
+                  <img src={website} alt="Image" />
+                  <h5>React.JS</h5>
+                </div>
+                <div className="item">
+                  <img src={cat} alt="Image" />
+                  <h5>GitHub</h5>
                 </div>
               </Carousel>
             </div>

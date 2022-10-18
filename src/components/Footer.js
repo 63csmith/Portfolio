@@ -10,7 +10,7 @@ export const Footer = () => {
             <img src={codestuart} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Thanks for stopping by 😁</p>
           </Col>
         </Row>
       </Container>

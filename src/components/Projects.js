@@ -74,14 +74,19 @@ export const Projects = () => {
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="third">
+                      <Tab.Pane className="youtube" eventKey="third">
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis
-                          quo.dffffffffffffffffffffffffffffffffff
+                          Standby for some coding and tutorial videos on my
+                          YouTube channel!
+                          <br></br>
+                          <a
+                            target="_blank"
+                            href={
+                              "https://www.youtube.com/channel/UCUGmii3egRMxDKSsZwJUbvQ"
+                            }
+                          >
+                            YouTube
+                          </a>
                         </p>
                       </Tab.Pane>
                     </Tab.Content>
