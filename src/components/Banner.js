@@ -69,7 +69,7 @@ export const Banner = () => {
                     This is my personal portfolio to showcase some of my
                     projects and a chance to introduce myself to you. I live in
                     Denver Colorado with my partner, two cats, and the best
-                    adventure pup around. I love the outdoors where i spend most
+                    adventure pup around. I love the outdoors where I spend most
                     of my free time if I am not working at my computer.
                   </p>
                 </div>
