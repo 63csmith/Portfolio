@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import website from "../assets/img/placeholder.gif";
 import bookify from "../assets/img/preview.gif";
-import rose from "../assets/img/Rose.jpg";
+import rose from "../assets/img/Rose.png";
 import tree from "../assets/img/treequiz.png";
 import shopwizzard from "../assets/img/shopwizzard.png";
 
