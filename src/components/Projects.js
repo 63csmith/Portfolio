@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import website from "../assets/img/placeholder.gif";
 import bookify from "../assets/img/preview.gif";
-import rose from "../assets/img/Rose.webp";
+import rose from "../assets/img/Rose.jpg";
 import tree from "../assets/img/treequiz.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
