@@ -1,6 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import website from "../assets/img/placeholder.gif";
+import bookify from "../assets/img/preview.gif";
+import rose from "../assets/img/Rose.webp";
+import tree from "../assets/img/treequiz.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -10,18 +13,14 @@ export const Projects = () => {
     {
       title: "Bookify",
       description: "FullStack App that provides new book recommendations!",
-      imgUrl: website,
+      imgUrl: bookify,
       link: "https://bookify-project1.herokuapp.com/",
     },
     {
       title: "Lenroa Rose Jewelry",
       description: "Shopify Store to sell handmade jewelry.",
-      imgUrl: website,
-    },
-    {
-      title: "Tree Quiz App",
-      description: "It's a quiz about trees.",
-      imgUrl: website,
+      imgUrl: rose,
+      link: "https://lenorarosejewelry.myshopify.com/",
     },
   ];
   // Apps
@@ -29,7 +28,8 @@ export const Projects = () => {
     {
       title: "Tree Quiz App",
       description: "It's a quiz about trees.",
-      imgUrl: website,
+      imgUrl: tree,
+      link: "https://63csmith.github.io/Tree-quiz/",
     },
   ];
 
@@ -73,13 +73,6 @@ export const Projects = () => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>
