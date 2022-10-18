@@ -43,7 +43,7 @@ export const Skills = () => {
               <Carousel
                 infinite={true}
                 autoPlay={true}
-                autoPlaySpeed={1000}
+                autoPlaySpeed={1500}
                 responsive={responsive}
                 className="owl-carousel owl-theme skill-slider"
                 arrows={false}

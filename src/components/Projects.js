@@ -11,6 +11,7 @@ export const Projects = () => {
       title: "Bookify",
       description: "FullStack App that provides new book recommendations!",
       imgUrl: website,
+      link: "https://bookify-project1.herokuapp.com/",
     },
     {
       title: "Lenroa Rose Jewelry",
@@ -55,7 +56,7 @@ export const Projects = () => {
                         <Nav.Link eventKey="second">Apps</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">In Development</Nav.Link>
+                        <Nav.Link eventKey="third">Youtube</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content id="slideInUp" className={isVisible ? "" : ""}>
