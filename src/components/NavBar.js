@@ -59,7 +59,7 @@ export const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("projects")}
             >
-              Projects
+              Content
             </Nav.Link>
             <Nav.Link
               target="_blank"

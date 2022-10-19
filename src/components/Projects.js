@@ -30,9 +30,6 @@ export const Projects = () => {
       imgUrl: shopwizzard,
       link: "http://shop-wizard.herokuapp.com/",
     },
-  ];
-  // Apps
-  const apps = [
     {
       title: "Tree Quiz App",
       description: "It's a quiz about trees.",
@@ -49,7 +46,7 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "" : ""}>
-                  <h2>My Projects</h2>
+                  <h2>My Content</h2>
                   <p> </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -61,7 +58,7 @@ export const Projects = () => {
                         <Nav.Link eventKey="first">Websites</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Apps</Nav.Link>
+                        <Nav.Link eventKey="second">Bio</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="third">Youtube</Nav.Link>
@@ -76,11 +73,30 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <Row>
-                          {apps.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
-                          })}
-                        </Row>
+                        <p>
+                          Hi, <br></br> First, I want to thank you personally
+                          for stopping by my portfolio. I have come a long way
+                          from making HTML docs in my code editor. I started my
+                          journey of becoming a software developer a few short
+                          months before I am writing this now, in April of 2022.
+                          I was ready for something new and prepared to invest
+                          in myself!<br></br> After quitting my Job at Elk Creek
+                          Fire department, where I had spent three years
+                          fighting wildfires, it was safe to say I was lost. I
+                          didn't know my next move. So it was time to do some
+                          self-reflection. What do I love about this world? What
+                          drives my excitement?........... While catching a ride
+                          on a plane into the middle of the Frank Church
+                          Wilderness of No Return was pretty exciting. I don't
+                          think it was my calling. I want to see the whole world
+                          and travel. So I hopped on Google and searched away
+                          about what remote jobs I could find interesting. After
+                          a couple of days, I started to come back to one common
+                          theme. I want to be a creator who can design beautiful
+                          applications for people. To help people connect and be
+                          involved in the world around them.<br></br> So now I
+                          code.
+                        </p>
                       </Tab.Pane>
                       <Tab.Pane className="youtube" eventKey="third">
                         <p>
