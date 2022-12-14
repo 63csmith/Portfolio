@@ -54,7 +54,10 @@ export const Contact = () => {
               {({ isVisible }) => (
                 <div className={isVisible ? "" : ""}>
                   <h2>Get In Touch</h2>
-                  <form onSubmit={handleSubmit}>
+                  <a href="https://calendly.com/63csmith/30min">
+                    My Calendly Scheduler
+                  </a>
+                  {/* <form onSubmit={handleSubmit}>
                     <Row>
                       <Col size={12} sm={6} className="px-1">
                         <input
@@ -121,7 +124,7 @@ export const Contact = () => {
                         </Col>
                       )}
                     </Row>
-                  </form>
+                  </form> */}
                 </div>
               )}
             </TrackVisibility>

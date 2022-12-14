@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import codestuart from "../assets/img/cs.png";
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
@@ -27,7 +26,7 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/">
-          <img id="logo" src={codestuart} alt="Logo" />
+          {/* <img id="logo" src={codestuart} alt="Logo" /> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -78,7 +77,7 @@ export const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("connect")}
             >
-              Contact Me
+              Let's Talk
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
